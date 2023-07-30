@@ -9,3 +9,5 @@ sort.Ints(keys)
 for _, k := range keys {
     fmt.Println("Key:", k, "Value:", m[k])
 }
+
+fmt.Println("Key:",keys) // testing...
